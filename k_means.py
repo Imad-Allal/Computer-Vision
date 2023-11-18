@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('project.avi')
+cap = cv2.VideoCapture('jardin.avi')
 ret, old_frame = cap.read()
 previous_frame = None
 
